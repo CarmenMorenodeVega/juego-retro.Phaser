@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="responsi.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Recordando el Super Pang</title>
+	<style type="text/css">
+		body {background-image: url("css/background.jpg");
+			 background-size: contain;   		
+    		background-repeat: repeat;
+			text-align: justify;
+		}			
+		.fondo {margin-left:100px;
+			margin-right: 100px;
+			background-color: #BC9DDB;
+				opacity: 0.8;
+				padding: 0px;
+
+		}
+		.texto {
+			padding: 20px;
+		}
+		.menu_buttons button{
+    		width:85%;
+    		cursor: pointer;
+
+		}
+		.leaderboar_btn{
+    		cursor:pointer;
+    				position: relative;
+    
+		}
+
+		.leaderboar_btn:hover{
+    		background-color: rgba(66, 11, 62, 0.99);
+		}
+
+	</style>
+</head>
+<body> 
+	<div class="fondo" id="fondo">
+		<div class="texto" id="texto">
+	<h1 style="text-align: center;">Recordando el Super Pang
+		<a href="index.html">
+            <button class="btn-lg leaderboar_btn" 
+            		style="	/*display:flex;
+            				width: 250px;*/
+            				height: 50px;
+            				margin-left:200px;
+            				 ">
+            				<h3>Regresar a menú principal</h3>
+            </button>
+        </a>
+        <a href="pendiente.html">
+            <button class="btn-lg leaderboar_btn" 
+            		style="	/*display:flex;
+            				width: 250px;*/
+            				height: 50px;
+            				margin-left:573px;
+            				 ">
+            				<h3>Pendiente  de implementar</h3>
+            </button>
+        </a>
+    </h1>
+		
+		<h2>Descripción del juego:</h2>
+			<p>El objetivo del juego es explotar unas bolas que se mueven por la pantalla.
+			Los personajes cuentan con dos tipos de armas para ir rompiendo las bolas: un arpón y un arma de fuego. El cambio se produce al recoger una estrella.
+			Por cada impacto de un disparo en una de estas bolas, estas se dividen en dos bolas más pequeñas.
+			Cuando las bolas adquieren un determinado tamaño, dejan de dividirse y desaparecen.<br/>
+			El objetivo principal del juego es acabar con las bolas sin que estas toquen a los personajes.
+			Si una bola toca un personaje, este perderá una vida.
+			Se pretende implementar el juego como un multijugador con puntuaciones, vidas, potenciadores y modificadores de armas.
+			</p>
+			
+			<video src="assets/t_video5796475381506638965.mp4" width="1085" height="600" autoplay loop></video>
+		<h2>Pantallas</h2>
+			<p>Es un menú en el que se puede seleccionar si jugar de forma local, buscar una sala o ver la tabla de puntuaciones. 
+			Está implementada con una página HTML, ayudado con estilos de css y bootstrap. 
+			Nos encotramos tres opciones en la pantalla inicio:</p>
+			<h3>Acerca de ...</h3>
+				<p>Al pulsar sobre este enlace se accede a la documentación descriptiva del desarrollo del juego en una página HTML. </p>
+			<h3>Game start</h3>
+				<p>Es el acceso a un menú en el que se puede seleccionar si jugar de forma local o crear una partida online. 
+				Está implementada con una página HTML, ayudado con estilos de css y bootstrap.</p>
+				<h4>Pantalla: Elegir mundo</h4>
+					<p>En primera instancia se debe elegir el mundo al que se quiere acceder mediante un sprite que se desplazará on mouse. Una vez se elige el mundo donde se quiere jugar, se cargan las imagenes que aparecerán en el anvas como background y se permite elegir el modo de juego.</p>
+					<h5>Pantalla: modo de juego</h5>
+						<p>Aquí es donde un jugador podrá crear una partida online, o unirse a la de otro (ahora mismo no hacen nada los botones).</p>				
+					<h5>Pantalla de juego</h5>
+						<p></p>
+					
+			<h3>Credits</h3>
+				<p></p>
+				
+		</div>
+
+
+	</div>
+		
+
+</body>
+</html>

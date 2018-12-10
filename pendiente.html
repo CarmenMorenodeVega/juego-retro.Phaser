@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="responsi.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Recordando el Super Pang</title>
+	<style type="text/css">
+		body {background-image: url("css/background.jpg");
+			 background-size: contain;   		
+    		background-repeat: repeat;
+			text-align: justify;
+		}			
+		.fondo {margin-left:100px;
+			margin-right: 100px;
+			background-color: #BC9DDB;
+				opacity: 0.8;
+				padding: 0px;
+
+		}
+		.texto {
+			padding: 20px;
+		}
+		.menu_buttons button{
+    		width:85%;
+    		cursor: pointer;
+
+		}
+		.leaderboar_btn{
+    		cursor:pointer;
+    				position: relative;
+    
+		}
+
+		.leaderboar_btn:hover{
+    		background-color: rgba(66, 11, 62, 0.99);
+		}
+
+	</style>
+</head>
+<body> 
+	<div class="fondo" id="fondo">
+		<div class="texto" id="texto">
+	<h1 style="text-align: center;">Recordando el Super Pang
+		<a href="index.html">
+            <button class="btn-lg leaderboar_btn" 
+            		style="	/*display:flex;
+            				width: 250px;*/
+            				height: 50px;
+            				margin-left:200px;
+            				 ">
+            				<h3>Regresar a menú principal</h3>
+            </button>
+        </a>
+        <a href="readme.html">
+            <button class="btn-lg leaderboar_btn" 
+            		style="	/*display:flex;
+            				width: 250px;*/
+            				height: 50px;
+            				margin-left:573px;
+            				">
+            				<h3>Información sobre el juego</h3>
+            </button>
+        </a>
+    </h1>
+	
+	<h3>Problemas detectados en el juego pendientes de resolver:</h2>
+		<p>El juego ha sido testeado por varios jugadores que habitualmente dedican gran parte de su tiempo a probar todo tipo de juegos. Debido a su corta edad, ninguno conocía el juego original de Super Pang. Todos ellos han coincidido en el alto grado de adicción que genera este juego a pesar de la dificultad y los errores que presentan esta versión. Así, mediante el testing que han realizado, han sido detectados varios bugs, los cuales he intentado resolver. Pero será necesario un nuevo periodo de prueba para poder comprobar la resolución de los mismos en todos los estados del juego.Por tanto, quedan aquí expuestos los problemas detectados que, mientras no se realice un testing completo, se tendrán en cuenta como los más importantes por su persistencia. Estos son:<br/>
+			1. Si un jugador muere pero el otro está vivo, en ocasiones (no siempre) el deadPlayer no aparece pero su arpón aparece y se mantiene habilitado en el sitio donde murió.<br/> 
+			2. En varias partidas (no siempre), las vidas de un jugador cuando han sido agotadas, mientras el segundo jugador continúa con dos vidas o más, han sido contabilizadas como valor negativo. <br/>
+		</p>
+			
+			
+	<h3>Implementaciones pendientes de desarrollar</h2>
+		<p>Teniendo en cuenta la usabilidad de los dispositivos Android, y ante el éxito que ha tenido el juego que he desarrollado para PC en una amplia población de menores de edades comprendidas entre 10 y 15 años, dejo los siguientes puntos par implementar en la próxima revisión, la cual no me va a ser posible eludir debido a la demanda de varios individuos de la franja de edad mencionada. Estas implementaciones requeridas son: <br/><br/>
+			1. A pesar de la insistencia de los jugadores de no hacer dicha implementación, se realizará una sala donde los players tengan definido el espacio de movimiento forzndo la colisión con los bordes laterales del CANVAS para que, por lo menos en algún estado del juego, esta versión se acerque de forma retro al juego original<br/> <br/>
+			2. Crear la alternativa de niveles de juego controlado. En esta versión, tanto los fondos de pantalla como las plataformas se generan de manera aleatoria. Los jóvenes jugadores han solicitado poder controlar la dificulatd por niveles.<br/><br/>
+			3. Adaptar el juego a dispositivos móviles para poder conectarse. Este aspecto me resulta realmente interesante ya que la prueba de conexión de jugadores en modo online no ha sido testeada, de forma que, al adaptar el juego a multiplaforma, me será de gran utilidad para comprobar el funcionamiento online.<br/><br/>
+			4. Incluir nuevos sprites para facilitar el juego (armas más potentes, el famoso reloj que paralizaba las bolas o cualquier otro elemento especial que aporte bonus extras).
+			
+		</p>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+    <head> 
+	    <meta charset="UTF-8" />
+        <title>Recordando el Super Pang</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">    
+        <link rel="stylesheet" type="text/css" href="css/styleMode.css">   
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src ="js/popper.js"></script>  
+        <script src ="js/bootstrap.min.js"></script>
+        	
+    </head>
+
+    <body>
+        <div id ="prueba" class = "game_canvas menu_background">
+                <div class="menu_buttons">
+                    <div class ="">
+                        <a href="local.html">
+                            <button class="btn-lg" style="color:rgb(255,128,0); text-align: right;";>                      
+                                MODO LOCAL                        
+                            </button>
+                        </a>
+                    </div>
+                
+                    <div class ="">
+                        <a href="online.html">
+                            <button class="btn-lg" style="color:rgb(255,128,0); text-align: right;";>                      
+                                MODO ONLINE                        
+                            </button>
+                        </a>
+                    </div>
+                    <div class ="">
+                    	<a href="leaderboard.html">
+                    		<button class="btn-lg" style="color:rgb(255,128,0); text-align: right;";>
+                    			PUNTUACIONES
+                    		</button>  
+                    	</a>  
+                    </div>
+                </div>
+            </div>
+           
+		<script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.min.js"></script>
+        <script src="js/game.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+    </body>
+</html>
